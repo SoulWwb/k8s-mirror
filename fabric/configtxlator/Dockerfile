@@ -1,3 +1,3 @@
 FROM hyperledger/fabric-tools:1.4.2
 EXPOSE 7059
-ENTRYPOINT ["/bin/sh" "-c" "exec /go/bin/configtxlator start"]
+ENTRYPOINT ["configtxlator start"]
